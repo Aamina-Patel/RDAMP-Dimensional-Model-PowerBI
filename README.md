@@ -25,10 +25,10 @@ I used MySQL to build the star schema model, views and wrote 5 reusable SQL quer
 The fact table contains the foreign keys referencing the relevant dimension tables and measures including revenue, cost of sales, profit, discount amount and quantity. 
 
 I chose to create the following dimensional tables as they best suited the requirements of ACE:
- - dim_product
- - dim_location
- - dim_date
- - dim_order_mode
+ - dim_product - contains all product information eg, name, category, sub-category and segment
+ - dim_location - contains all store locations eg, city, postal code, region and country
+ - dim_date - contains order date, month, quarter and year for time-based analysis
+ - dim_order_mode - contains two order modes, online and in-store
 
 ### SQL Setup Instructions
 
@@ -45,6 +45,8 @@ I chose to create the following dimensional tables as they best suited the requi
 
 ### Screenshot of Dashboard
 
-<img width="1417" height="797" alt="Aamina_Patel_Dashboard" src="https://github.com/user-attachments/assets/18929ed0-66d0-44a3-aca2-8b9e283ce754" />
+<img width="1517" height="855" alt="Aamina_Patel_Dashboard_Page_1" src="https://github.com/user-attachments/assets/8e46d3ba-a1c3-4033-807a-c73f0f40dfa1" />
 
 
+
+<img width="1517" height="853" alt="Aamina_Patel_Dashboard_Page_2" src="https://github.com/user-attachments/assets/daa3b653-fe7d-41d6-a512-149d3ed9af55" />
