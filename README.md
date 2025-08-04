@@ -25,8 +25,8 @@ I used MySQL to build the star schema model, views and wrote 5 reusable SQL quer
 The fact table contains the foreign keys referencing the relevant dimension tables and measures including revenue, cost of sales, profit, discount amount and quantity. 
 
 I chose to create the following dimensional tables as they best suited the requirements of ACE:
- - dim_product - contains all product information eg, name, category, sub-category and segment
- - dim_location - contains all store locations eg, city, postal code, region and country
+ - dim_product - contains all product information e.g. name, category, sub-category and segment
+ - dim_location - contains all store locations e.g. city, postal code, region and country
  - dim_date - contains order date, month, quarter and year for time-based analysis
  - dim_order_mode - contains two order modes, online and in-store
 
@@ -45,8 +45,41 @@ I chose to create the following dimensional tables as they best suited the requi
 
 ### Screenshot of Dashboard
 
-<img width="1517" height="855" alt="Aamina_Patel_Dashboard_Page_1" src="https://github.com/user-attachments/assets/8e46d3ba-a1c3-4033-807a-c73f0f40dfa1" />
+<img width="1515" height="850" alt="Aamina_Patel_Dashboard_Page_1" src="https://github.com/user-attachments/assets/13ecc25e-81be-46bd-8ed7-31b4da575062" />
 
+<img width="1517" height="852" alt="Aamina_Patel_Dashboard_Page_2" src="https://github.com/user-attachments/assets/f2ef2e0a-899b-463a-9147-95e0d9358671" />
 
+## Insights from the Dashboard
+Key insights include:
 
-<img width="1517" height="853" alt="Aamina_Patel_Dashboard_Page_2" src="https://github.com/user-attachments/assets/daa3b653-fe7d-41d6-a512-149d3ed9af55" />
+#### 1. Category Ranking by Region
+- Top-performing category: Outdoor generated the highest profit at £310,979.01
+- Low-performing category: Seasonings generated the lowest profit at £92.35
+- England and Scotlands top performing category is Outdoor, Northern Irelands is Kitchen and Wales is Home
+- Englands low performing category is Condiments, Scotlands is Grains, Northern Irelands is Breakfast and Wales is Computers
+  
+#### 2. Top 10 Customers by Profit Contribution
+- Top Customer: The 1st customer with the highest profit contribution had a profit figure of £47,588.68
+- 10th Customer: The 10th customer with the highest profit contribution had a profit figure of £15,243.03
+
+#### 3. Product Seasonality Trends
+- Products that sell more in the summer months include, Electric Bike, Portable Air Conditioner and Portable Solar Generator
+- A Digital Camera is a popular product in December, most likely beacuse people are buying this as a gift
+
+#### 4. Discount vs Profit Analysis
+- Discount and profit are positively correlated
+
+#### 5. Average Order Value by Channel & Segment
+- The Outdoor segment has the highest average order value of £202,355.21 
+
+## Recommendations
+
+- Increase our inventory of high performing categories and try to phase out low performing categories
+- Conduct questionaires to see why customers don't like the low performing categories and improve the categories
+- Launch a loyalty scheme where customers with the highest profit contributions get the higest discounts
+- Give customers discounts on products when in season (e.g. give discounts for Digital Cameras in December)
+
+### Realcare Tech Mark Data Analyst Mentorship Programme
+- Created by: Aamina Patel
+- Built with: MySQL & Power BI
+- Data Source: RealCare Tech Mark LTD
