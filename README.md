@@ -1,6 +1,4 @@
-# RDAMP-Dimensional-Model-PowerBI
-
-## ACE Superstore - Dimensional Modelling, SQL Transformation & Power BI Reporting Project
+# ACE Superstore - Dimensional Modelling, SQL Transformation & Power BI Reporting Project
 
 ### Introduction
 
