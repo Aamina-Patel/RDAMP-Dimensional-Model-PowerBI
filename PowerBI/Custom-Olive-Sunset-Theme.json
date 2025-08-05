@@ -1,0 +1,13 @@
+{
+  "name": "Custom Olive Sunset Theme",
+  "dataColors": [
+  "#606C38",
+  "#283618",
+  "#FEFAE0",
+  "#DDA15E",
+  "#BC6C25"
+],
+"background": "#FEFAE0",
+"foreground": "#283618",
+"tableAccent": "#BC6C25"
+}
