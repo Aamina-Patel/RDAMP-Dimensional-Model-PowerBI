@@ -45,9 +45,7 @@ I chose to create the following dimensional tables as they best suited the requi
 
 ### Screenshot of Dashboard
 
-<img width="1515" height="850" alt="Aamina_Patel_Dashboard_Page_1" src="https://github.com/user-attachments/assets/13ecc25e-81be-46bd-8ed7-31b4da575062" />
-
-<img width="1517" height="852" alt="Aamina_Patel_Dashboard_Page_2" src="https://github.com/user-attachments/assets/f2ef2e0a-899b-463a-9147-95e0d9358671" />
+<img width="1428" height="802" alt="Aamina_Patel_Final_Dashboard" src="https://github.com/user-attachments/assets/5e37fc8c-63bc-487b-b06f-e0a30fb43e0a" />
 
 ## Insights from the Dashboard
 Key insights include:
@@ -79,7 +77,7 @@ Key insights include:
 - Launch a loyalty scheme where customers with the highest profit contributions get the higest discounts
 - Give customers discounts on products when in season (e.g. give discounts for Digital Cameras in December)
 
-### Realcare Tech Mark Data Analyst Mentorship Programme
+## Realcare Tech Mark Data Analyst Mentorship Programme
 - Created by: Aamina Patel
 - Built with: MySQL & Power BI
 - Data Source: RealCare Tech Mark LTD
